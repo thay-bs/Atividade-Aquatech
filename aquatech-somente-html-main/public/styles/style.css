@@ -63,4 +63,125 @@ body {
 .version {
     font-size: 11px;
 }
+.banner {
+    min-height: 400px;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner p {
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 10%;
+}
+
+.banner p span {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #e5e5e5;
+    padding: 40px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.box:nth-child(1) img { content: url('../assets/imgs/planet-earth_color.png'); }
+.box:nth-child(2) img { content: url('../assets/imgs/lightbulb_color.png'); }
+.box:nth-child(3) img { content: url('../assets/imgs/growth_color.png'); }
+
+.box h4 {
+    color: #e6005c;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.login {
+    flex: 1;
+    display: flex;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-login, .card-cadastro {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-login h2, .card-cadastro h2 {
+    color: #e6005c;
+    font-size: 28px;
+}
+
+.formulario {
+    width: 90%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo span {
+    color: #e6005c;
+    font-weight: bold;
+    color: #e6005c;
+}
+
+.campo input {
+    border: 1.5px solid #32b9cd;
+    border-radius: 6px;
+    padding: 0 12px;
+    outline: none;
+    width: 100%;
+}
+
+.botao {
+    background-color: #e6005c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao:hover {
+    background-color: #b30047;
+}
 
